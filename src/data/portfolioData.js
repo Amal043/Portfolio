@@ -30,7 +30,7 @@ export const heroContent = {
   greeting: "Hi, I'm Amal Srivastava",
   titleHighlight: "Full-Stack & AI Developer",
   subtitle:
-    "I build intelligent full-stack applications, real-time AI agents, and web platforms using Python, React, Node.js, and MongoDB.",
+    "Turning ideas into impactful solutions, I develop modern web applications, intelligent AI solutions, and data-driven systems that are scalable, efficient, and built to make a difference.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
