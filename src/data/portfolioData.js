@@ -17,7 +17,7 @@ export const personalInfo = {
   },
   summary:
     "Aspiring software engineer and Mechanical Engineering student at NIT Jamshedpur with strong expertise in full-stack development, AI student co-pilots, and real-time commerce software. Winner of the IIT Kharagpur Platinum Jubilee Innovation Challenge.",
-  resumeUrl: "/Amal_Srivastava_Resume.pdf",
+  resumeUrl: "/Portfolio/Amal_Intern.pdf",
 };
 
 export const socialLinks = {
@@ -36,7 +36,7 @@ export const heroContent = {
     text: "Contact Me",
     href: "#contact",
   },
-  ctaResume: { text: "Download Resume", href: "/Amal_Srivastava_Resume.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Portfolio/Amal_Intern.pdf" },
 };
 
 export const aboutContent = {
