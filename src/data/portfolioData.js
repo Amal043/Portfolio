@@ -184,6 +184,18 @@ export const leadershipList = [
     description: "Active participation in coding hackathons, technical events, and bootcamps at the National Institute of Technology.",
     role: "Student Coordinator",
     badge: "Technical"
+  },
+  {
+    title: "PW Campus Ambassador",
+    description: "Led Physics Wallah's campus outreach programs at NIT Jamshedpur. Promoted technical learning resources, coding bootcamps, and developer courses, guiding peers on path-breaking career opportunities in software development.",
+    role: "Campus Ambassador",
+    badge: "Outreach"
+  },
+  {
+    title: "Data Analytics & Gen AI Simulation (Forage)",
+    description: "Completed virtual job simulations in data analytics and generative AI. Applied LLMs and data mining methodologies to synthesize datasets, generate automated analytical insights, and construct data-driven solutions.",
+    role: "Simulation Participant",
+    badge: "Academic"
   }
 ];
 
