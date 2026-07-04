@@ -127,8 +127,8 @@ const Contact = () => {
       return;
     }
 
-    // Default Fallback: Prefilled mailto link
-    const mailtoLink = `mailto:${personalInfo.emails.primary}?subject=Portfolio Contact from ${firstName} ${lastName}&body=${encodeURIComponent(`From: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`)}`;
+    // Default Fallback: Prefilled Gmail link
+    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.emails.primary}&su=${encodeURIComponent(`Portfolio Contact from ${firstName} ${lastName}`)}&body=${encodeURIComponent(`From: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`)}`;
     window.open(mailtoLink, '_blank');
     setStatus('success');
     formRef.current.reset();
@@ -212,7 +212,7 @@ const Contact = () => {
                 </div>
                 <div className="relative group">
                   <a 
-                    href={`mailto:${personalInfo.emails.primary}`}
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.emails.primary}`}
                     onClick={handleEmailClick}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -296,7 +296,7 @@ const Contact = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-6">
                   <p className="max-w-[250px] leading-relaxed">
-                    For urgent inquiries, reach me at <a href={`mailto:${personalInfo.emails.primary}`} onClick={handleEmailClick} target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors">{personalInfo.emails.primary}</a>
+                    For urgent inquiries, reach me at <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.emails.primary}`} onClick={handleEmailClick} target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors">{personalInfo.emails.primary}</a>
                   </p>
                   
                   <button 
