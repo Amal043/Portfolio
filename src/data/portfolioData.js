@@ -192,7 +192,7 @@ export const leadershipList = [
     badge: "Outreach"
   },
   {
-    title: "Data Analytics & Gen AI Simulation (Forage)",
+    title: "Data Analytics with Gen AI Job Simulation on Forage",
     description: "Completed virtual job simulations in data analytics and generative AI. Applied LLMs and data mining methodologies to synthesize datasets, generate automated analytical insights, and construct data-driven solutions.",
     role: "Simulation Participant",
     badge: "Academic"
