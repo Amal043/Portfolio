@@ -83,6 +83,78 @@ const JsIcon = () => (
   </div>
 );
 
+const MysqlIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg className="w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24" fill="currentColor">
+      <path fill="#00758f" d="M12.11 2.07c-.1 0-.19.01-.28.03v.01h.01c.06.1.15.18.21.27.06.11.1.22.16.32l.01-.01c.1-.07.15-.17.15-.34 0-.05-.01-.1-.04-.14-.05-.07-.13-.1-.19-.15-.02.01-.03.01-.04.01zM6.1 18.84H5.2c-.03-1.56-.12-3.03-.27-4.41h-.01l-1.41 4.41H2.7l-1.4-4.41h-.01c-.1 1.32-.17 2.79-.2 4.41H0c.06-1.97.19-3.81.41-5.53h1.15l1.34 4.06h.01L4.25 13.3h1.1c.24 2.02.38 3.86.43 5.54zm3.99-4.08c-.38 2.05-.88 3.53-1.49 4.46-.48.72-1.01 1.07-1.58 1.07-.15 0-.34-.05-.57-.14v-.49c.11.02.24.03.39.03.27 0 .48-.08.65-.22.2-.18.3-.38.3-.61 0-.15-.08-.47-.23-.94L6.55 14.76h.91l.73 2.36c.16.54.23.91.21 1.12.4-1.06.68-2.23.83-3.48h.88zm12.33 4.08h-2.63v-5.53h.89v4.85h1.74v.68zm-3.32.14l-1.02-.5c.09-.08.18-.16.26-.25.43-.51.65-1.26.65-2.25 0-1.83-.72-2.75-2.16-2.75-.7 0-1.25.23-1.65.7-.43.51-.65 1.26-.65 2.25 0 .97.19 1.69.57 2.14.35.41.88.62 1.58.62.26 0 .51-.03.73-.1l1.32.77.36-.62zm-3.3-1.28c-.22-.36-.34-.94-.34-1.74 0-1.39.42-2.09 1.27-2.09.44 0 .77.17.98.5.22.36.34.94.34 1.72 0 1.4-.42 2.11-1.27 2.11-.45 0-.77-.17-.98-.5zm-1.66-.42c0 .47-.17.86-.52 1.16-.34.3-.8.45-1.38.45-.54 0-1.06-.17-1.57-.51l.24-.48c.44.22.83.33 1.19.33.33 0 .59-.07.78-.22a.75.75 0 00.3-.62c0-.33-.23-.61-.65-.84-.39-.21-1.16-.66-1.16-.66-.42-.31-.63-.64-.63-1.18 0-.45.16-.81.47-1.08.32-.28.72-.42 1.22-.42.51 0 .98.14 1.4.41l-.21.48c-.36-.15-.72-.23-1.06-.23-.28 0-.5.07-.65.21-.16.14-.25.31-.25.52 0 .33.23.61.67.85.39.22 1.19.67 1.19.67.43.3.65.63.65 1.17z" />
+    </svg>
+    <span className="text-[10px] md:text-xs font-bold text-white/70 uppercase tracking-wider">MySQL</span>
+  </div>
+);
+
+const VscodeIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg className="w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24" fill="none">
+      <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479l2.582 1.508a1 1 0 0 0 1.278-.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.94-2.377A1 1 0 0 0 24 20.06V3.939a1 1 0 0 0-.85-1.352zm-5.14 5.937L12.5 12l5.51 3.477V8.524z" fill="#007ACC" />
+    </svg>
+    <span className="text-[10px] md:text-xs font-bold text-white/70 uppercase tracking-wider">VS Code</span>
+  </div>
+);
+
+const AntigravityIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg className="w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24" fill="none">
+      <defs>
+        <linearGradient id="antigravity-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="#ff2a2a" />
+          <stop offset="50%" stopColor="#8b5cf6" />
+          <stop offset="100%" stopColor="#06b6d4" />
+        </linearGradient>
+      </defs>
+      <circle cx="12" cy="12" r="10" stroke="url(#antigravity-grad)" strokeWidth="1.5" strokeDasharray="3 3" />
+      <path d="M12 4L6 11H10V18H14V11H18L12 4Z" fill="url(#antigravity-grad)" />
+      <ellipse cx="12" cy="13" rx="8" ry="2.5" stroke="url(#antigravity-grad)" strokeWidth="1.5" fill="none" transform="rotate(-15 12 13)" />
+    </svg>
+    <span className="text-[10px] md:text-xs font-bold text-white/70 uppercase tracking-wider">Antigravity</span>
+  </div>
+);
+
+const AwsIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg className="w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24" fill="none">
+      <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z" fill="#FF9900" />
+      <text x="12" y="14.5" fill="#FF9900" fontSize="5.5" fontWeight="900" textAnchor="middle" fontFamily="sans-serif">AWS</text>
+    </svg>
+    <span className="text-[10px] md:text-xs font-bold text-white/70 uppercase tracking-wider">AWS Cloud</span>
+  </div>
+);
+
+const GoogleConsoleIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg className="w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24" fill="none">
+      <rect x="2" y="4" width="20" height="16" rx="2" stroke="#4285F4" strokeWidth="2" fill="#111" />
+      <circle cx="5" cy="7" r="1" fill="#EA4335" />
+      <circle cx="8" cy="7" r="1" fill="#FBBC05" />
+      <circle cx="11" cy="7" r="1" fill="#34A853" />
+      <path d="M6 11l3 3-3 3" stroke="#FBBC05" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <line x1="11" y1="17" x2="16" y2="17" stroke="#34A853" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+    <span className="text-[10px] md:text-xs font-bold text-white/70 uppercase tracking-wider">G Console</span>
+  </div>
+);
+
+const GoogleCloudIcon = () => (
+  <div className="flex flex-col items-center gap-2">
+    <svg className="w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24" fill="none">
+      <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" fill="#4285F4" />
+      <path d="M19.35 10.04A9.344 9.344 0 0 0 12 4c-2.62 0-4.88 1.86-5.39 4.43l-.3 1.5-1.53.11C3.22 10.14 2 11.39 2 13h10v7h7c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" fill="#34A853" />
+      <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4v16h7c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" fill="#FBBC05" />
+      <path d="M12 4c-3.64 0-6.67 2.59-7.35 6.04L2 13h10V4z" fill="#EA4335" />
+    </svg>
+    <span className="text-[10px] md:text-xs font-bold text-white/70 uppercase tracking-wider">G Cloud</span>
+  </div>
+);
+
 const About = () => {
   return (
     <section id="about" className="bg-[#ff2a2a] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
@@ -127,28 +199,46 @@ const About = () => {
 
           {/* Horizontal Skills Row */}
           <div className="flex flex-wrap items-center gap-5 md:gap-6 lg:gap-8 mt-8">
-            <div data-aos="zoom-in" data-aos-delay="150" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+            <div data-aos="zoom-in" data-aos-delay="100" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <PythonIcon />
             </div>
-            <div data-aos="zoom-in" data-aos-delay="200" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+            <div data-aos="zoom-in" data-aos-delay="150" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <ReactIcon />
             </div>
-            <div data-aos="zoom-in" data-aos-delay="250" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+            <div data-aos="zoom-in" data-aos-delay="200" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <NodeIcon />
             </div>
-            <div data-aos="zoom-in" data-aos-delay="300" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+            <div data-aos="zoom-in" data-aos-delay="250" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <MongoIcon />
             </div>
-            <div data-aos="zoom-in" data-aos-delay="355" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <GitIcon />
+            <div data-aos="zoom-in" data-aos-delay="300" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <MysqlIcon />
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="350" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <VscodeIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="400" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <HtmlIcon />
+              <AntigravityIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="450" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <CssIcon />
+              <AwsIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="500" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <GoogleConsoleIcon />
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="550" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <GoogleCloudIcon />
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="600" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <GitIcon />
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="650" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <HtmlIcon />
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="700" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
+              <CssIcon />
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="750" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <JsIcon />
             </div>
           </div>
