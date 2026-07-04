@@ -126,25 +126,41 @@ export const contentCreation = {
       title: "IIT Kharagpur Challenge Winner",
       description: "Won top honors at the flagship Platinum Jubilee Innovation Challenge with FinAgent — an AI money co-pilot.",
       stats: "1st Place Winner",
-      icon: "🏆"
+      icon: "🏆",
+      details: "FinAgent is an AI-powered student money co-pilot built for the IIT Kharagpur Platinum Jubilee Innovation Challenge. It helps students automate budgeting, track expenses, and make smarter financial decisions using a conversational AI interface backed by Google Cloud Vertex AI. The system was designed to be commercially viable — complete with user authentication, personalized dashboards, and multi-agent financial analysis. This project won 1st place among hundreds of competing teams at one of India's most prestigious engineering institutions.",
+      techStack: ["React", "Node.js", "MongoDB", "Google Cloud Vertex AI", "LangChain"],
+      demoLink: "https://github.com/Amal043",
+      githubLink: "https://github.com/Amal043"
     },
     {
       title: "Multi-Agent AI Platform",
       description: "Developed QuickStyle, a real-time fashion delivery platform with LangGraph and Vertex AI negotiator agents.",
       stats: "LangGraph & Gemini",
-      icon: "⚡"
+      icon: "⚡",
+      details: "QuickStyle is a 30-minute quick-commerce fashion delivery platform that uses a sophisticated multi-agent AI system. A Stylist Agent recommends outfits based on hyperlocal trends (scraped via Tavily), while an Anti-Return Agent negotiates in real-time to reduce return rates. Users can shop through a voice-to-commerce flow, track deliveries live on Google Maps, and get personalized fashion recommendations. The platform is built with a React/TypeScript frontend, FastAPI backend, LangGraph for agent orchestration, and Vertex AI Gemini for AI reasoning.",
+      techStack: ["React", "TypeScript", "FastAPI", "LangGraph", "Google Vertex AI", "MongoDB", "Redis", "Zustand"],
+      demoLink: "https://quick-style-ten.vercel.app",
+      githubLink: "https://github.com/Amal043"
     },
     {
       title: "Premium Media Platform",
       description: "Designed Sonoria, a Spotify-style music streaming application with a live wave visualizer and audio/video switching.",
       stats: "Modern Web Stack",
-      icon: "🎵"
+      icon: "🎵",
+      details: "Sonoria is a premium web-based music streaming platform that provides access to a massive library of songs and music videos. Its standout feature is a seamless one-click switch between audio-only streaming (with a live canvas-based wave visualizer) and high-quality video playback — all within the same interface. The platform includes user registration & login via MongoDB, liked tracks management, persistent playlists, and a beautiful dark-mode UI inspired by Spotify and Apple Music.",
+      techStack: ["JavaScript", "HTML5", "CSS3", "Node.js", "Express", "MongoDB"],
+      demoLink: "https://amal043.github.io/Sonoria/",
+      githubLink: "https://github.com/Amal043/Sonoria"
     },
     {
       title: "Opportunity Finder Portal",
       description: "Built EduPortal, a platform to recommend scholarships, hackathons, and internships based on states.",
       stats: "Full-Stack Node/Mongo",
-      icon: "🎓"
+      icon: "🎓",
+      details: "EduPortal is a responsive Educational Opportunities Portal designed to help students across India discover relevant scholarships, hackathons, workshops, and internship opportunities tailored to their state location. The platform features secure session-based authentication, a smart recommendation engine based on state filtering, and a modern glassmorphism UI with light/dark mode support. Built with a full Node.js/Express backend and MongoDB database, it is deployed on Render for reliable cloud hosting.",
+      techStack: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express", "MongoDB", "Render"],
+      demoLink: "https://amal043.github.io/EduPortal/",
+      githubLink: "https://github.com/Amal043/EduPortal"
     }
   ]
 };
