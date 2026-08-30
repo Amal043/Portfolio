@@ -260,8 +260,36 @@ export const projects = [
     isFlagship: true,
   },
   {
-    id: "sonoria",
+    id: "mindmirror",
     number: "02",
+    badge: "🧠 Sensory-Friendly AI",
+    title: "MindMirror AI",
+    description:
+      "A communication practice platform designed for neurodivergent individuals, featuring low-stimulation environments, reading ease modes, interactive conversation scenarios, and AI-driven real-time feedback.",
+    techTags: ["React", "Vite", "Tailwind CSS", "AI Feedback", "Accessibility", "JavaScript"],
+    links: {
+      github: "https://github.com/Amal043/MindMirror_AI.git",
+      demo: "https://mind-mirror-ai-lilac.vercel.app/",
+    },
+    isFlagship: false,
+  },
+  {
+    id: "aetherai",
+    number: "03",
+    badge: "⚡ Enterprise Intelligence",
+    title: "AETHER AI Engine",
+    description:
+      "An enterprise AI-powered analytics platform for e-commerce funnel optimization, supply chain telemetry profiling, real-time CSV data stream ETL ingestion, and predictive demand spike forecasting.",
+    techTags: ["Next.js 15", "React", "TypeScript", "FastAPI", "Python", "Tailwind CSS", "Framer Motion"],
+    links: {
+      github: "https://github.com/Amal043/AETHER_AI.git",
+      demo: "https://aether-ai-kappa-three.vercel.app/",
+    },
+    isFlagship: false,
+  },
+  {
+    id: "sonoria",
+    number: "04",
     badge: "🎵 Premium Streaming",
     title: "Sonoria",
     description:
@@ -274,8 +302,22 @@ export const projects = [
     isFlagship: false,
   },
   {
+    id: "instaface",
+    number: "05",
+    badge: "🌐 Social Media Platform",
+    title: "InstaFace",
+    description:
+      "A next-generation social media platform combining Instagram stories, short video reels, Facebook community groups, local marketplace, post composer with image uploading, and interactive dark/light theme modes.",
+    techTags: ["JavaScript", "HTML5", "CSS3", "FontAwesome", "REST APIs", "Vercel"],
+    links: {
+      github: "https://github.com/Amal043/CodeAlpha_SocialMediaPlatform.git",
+      demo: "https://instaface-nu.vercel.app/",
+    },
+    isFlagship: false,
+  },
+  {
     id: "eduportal",
-    number: "03",
+    number: "06",
     badge: "🎓 Educational Portal",
     title: "EduPortal",
     description:
@@ -287,7 +329,36 @@ export const projects = [
     },
     isFlagship: false,
   },
+  {
+    id: "ecommercestore",
+    number: "07",
+    badge: "🛍️ E-Commerce Platform",
+    title: "AURA E-Commerce Store",
+    description:
+      "A feature-rich lifestyle and tech e-commerce store (AURA) featuring catalog searching, category filters, price sorting, wishlist drawers, user authentication, interactive cart management, and seamless order checkout.",
+    techTags: ["JavaScript", "HTML5", "CSS3", "FontAwesome", "Responsive Design", "Vercel"],
+    links: {
+      github: "https://github.com/Amal043/CodeAlpha_ECommerceStore.git",
+      demo: "https://code-alpha-e-commerce-store-sage.vercel.app/",
+    },
+    isFlagship: false,
+  },
+  {
+    id: "projectmanagementtool",
+    number: "08",
+    badge: "📋 Collaborative Workflow",
+    title: "TaskFlow Project Management",
+    description:
+      "A collaborative project management application (TaskFlow) featuring Kanban-style task organization boards, dynamic task filters, priority tagging, team collaboration tools, and full task CRUD lifecycle management with light/dark theme support.",
+    techTags: ["React", "Vite", "Tailwind CSS", "JavaScript", "State Management", "Vercel"],
+    links: {
+      github: "https://github.com/Amal043/CodeAlpha_ProjectManagementTool.git",
+      demo: "https://code-alpha-project-management-tool-indol.vercel.app/",
+    },
+    isFlagship: false,
+  },
 ];
+
 
 export const certificates = {
   featured: [
